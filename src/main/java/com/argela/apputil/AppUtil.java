@@ -1,4 +1,4 @@
-package AppUtil;
+package com.argela.apputil;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.ios.*;
 

@@ -1,4 +1,4 @@
-package AppUtil;
+package com.argela.enumarations;
 
 public enum UsersEnumaration {
 	ismailfirataras("ismailfirataras", "Users/ismailfirataras/Library/Developer/Xcode/DerivedData/WirofonNext-atkldebvevgvbdbjkeahkdnffswl/Build/Products/Release-iphoneos/"),

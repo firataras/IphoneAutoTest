@@ -1,7 +1,7 @@
-package GirisYap;
+package com.argela.mainpage;
 
 
-import AppUtil.*;
+import com.argela.apputil.*;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.ios.IOSDriver;
 

@@ -1,9 +1,10 @@
-package AppUtil;
+package com.argela.functions;
+
 import java.util.HashMap;
 
 import org.openqa.selenium.interactions.touch.DownAction;
+import com.argela.enumarations.*;
 
-import AppUtil.Enumarations;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.SwipeElementDirection;
 import io.appium.java_client.ios.IOSDriver;

@@ -1,17 +1,18 @@
-package com.argela.test;
+package com.argela.wirofon;
+
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import AppUtil.AppUtil;
-import AppUtil.BasicFunctions;
-import AppUtil.Enumarations;
+import com.argela.apputil.*;
+import com.argela.functions.*;
+import com.argela.enumarations.*;
+
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.ios.IOSDriver;
 
-
-public class WirofonAutoTesting {
-	private static IOSDriver<MobileElement> driver;
+public class WirofonTest {
+private static IOSDriver<MobileElement> driver;
 	
 	//@Test(priority = 1, groups = "Test")
 	@BeforeClass(alwaysRun=true)
@@ -42,7 +43,5 @@ public class WirofonAutoTesting {
 		driver.quit();
 	}
 	
-	
+
 }
-
-

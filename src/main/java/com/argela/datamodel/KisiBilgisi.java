@@ -1,4 +1,4 @@
-package AppUtil;
+package com.argela.datamodel;
 
 public enum KisiBilgisi {
 
