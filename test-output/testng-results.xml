@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="115483" started-at="2016-06-14T07:09:39Z" finished-at="2016-06-14T07:11:35Z">
+    <groups>
+      <group name="p2">
+        <method signature="WirofonAutoTesting.Giris()[pri:0, instance:com.argela.test.WirofonAutoTesting@3a1cd84e]" name="Giris" class="com.argela.test.WirofonAutoTesting"/>
+      </group> <!-- p2 -->
+      <group name="Giris Yap Page Tests">
+        <method signature="WirofonAutoTesting.Giris()[pri:0, instance:com.argela.test.WirofonAutoTesting@3a1cd84e]" name="Giris" class="com.argela.test.WirofonAutoTesting"/>
+      </group> <!-- Giris Yap Page Tests -->
+      <group name="p1">
+        <method signature="WirofonAutoTesting.WarningPage()[pri:0, instance:com.argela.test.WirofonAutoTesting@3a1cd84e]" name="WarningPage" class="com.argela.test.WirofonAutoTesting"/>
+      </group> <!-- p1 -->
+      <group name="Notification Tests">
+        <method signature="WirofonAutoTesting.WarningPage()[pri:0, instance:com.argela.test.WirofonAutoTesting@3a1cd84e]" name="WarningPage" class="com.argela.test.WirofonAutoTesting"/>
+      </group> <!-- Notification Tests -->
+    </groups>
+    <test name="Default test" duration-ms="115483" started-at="2016-06-14T07:09:39Z" finished-at="2016-06-14T07:11:35Z">
+      <class name="com.argela.test.WirofonAutoTesting">
+        <test-method status="PASS" signature="Driver()[pri:0, instance:com.argela.test.WirofonAutoTesting@3a1cd84e]" name="Driver" is-config="true" duration-ms="67846" started-at="2016-06-14T10:09:39Z" finished-at="2016-06-14T10:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Driver -->
+        <test-method status="PASS" signature="WarningPage()[pri:0, instance:com.argela.test.WirofonAutoTesting@3a1cd84e]" name="WarningPage" duration-ms="6507" started-at="2016-06-14T10:10:47Z" finished-at="2016-06-14T10:10:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WarningPage -->
+        <test-method status="PASS" signature="Giris()[pri:0, instance:com.argela.test.WirofonAutoTesting@3a1cd84e]" name="Giris" duration-ms="39164" started-at="2016-06-14T10:10:53Z" depends-on-methods="com.argela.test.WirofonAutoTesting.WarningPage" finished-at="2016-06-14T10:11:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Giris -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.argela.test.WirofonAutoTesting@3a1cd84e]" name="closeDriver" is-config="true" duration-ms="1909" started-at="2016-06-14T10:11:33Z" finished-at="2016-06-14T10:11:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.argela.test.WirofonAutoTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

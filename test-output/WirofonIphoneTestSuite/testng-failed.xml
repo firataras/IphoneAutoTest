@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [WirofonIphoneTestSuite]">
+  <test name="p2 Test(failed)">
+    <groups>
+      <run>
+        <include name="p2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.argela.test.WirofonAutoTesting">
+        <methods>
+          <include name="Driver"/>
+          <include name="Driver"/>
+          <include name="WarningPage"/>
+          <include name="closeDriver"/>
+          <include name="closeDriver"/>
+          <include name="Giris"/>
+        </methods>
+      </class> <!-- com.argela.test.WirofonAutoTesting -->
+    </classes>
+  </test> <!-- p2 Test(failed) -->
+</suite> <!-- Failed suite [WirofonIphoneTestSuite] -->

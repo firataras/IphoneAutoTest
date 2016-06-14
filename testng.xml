@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WirofonIphoneTestSuite" verbose= "8">
+	<test name="p1 Test">
+		<groups>
+			<run>
+				<include name="p1"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.argela.test.WirofonAutoTesting" />
+		</classes>
+	</test>
+	<test name="p2 Test">
+		<groups>
+			<run>
+				<include name="p2"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.argela.test.WirofonAutoTesting" />
+		</classes>
+	</test>
+</suite> 
